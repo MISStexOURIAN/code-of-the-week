@@ -200,7 +200,7 @@ body {
 }
 
 #about {
-    /* opacity: 0; */
+
 }
 
 .fade-in-up-from-left {
@@ -215,6 +215,19 @@ body {
                 slideUpFromRight ease-in-out 0.5s;
             animation: fadeIn ease-in-out 0.5s,
                 slideUpFromRight ease-in-out 0.5s;
+}
+
+#specialties {
+    min-height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 @-webkit-keyframes
