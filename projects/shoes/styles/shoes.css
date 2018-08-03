@@ -1,0 +1,190 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #DFDCD4;
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 0.5px solid #fff;
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    z-index: 50;
+}
+
+.shrink {
+    height: 100px;
+}
+
+header div {
+    width: 33%;
+    height: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+
+}
+
+.shop-by,
+.collections {
+    border-right: 0.5px solid #fff;
+}
+
+.navs {
+    color: #fff;
+    margin-top: 32%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+#credits {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #fff;
+}
+
+.moving-navs {
+    margin-top: 25px;
+    -ms-flex-item-align: start;
+        align-self: start;
+    padding-bottom: 10px;
+}
+
+#shop {
+    color: #ADA591;
+}
+
+.active {
+    border-bottom: 1px solid #ada591;
+}
+
+.main {
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    opacity: 1;
+    color: #ada591;
+    font-size: 10rem !important;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    letter-spacing: 3px;
+    -webkit-transition: all 1s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.75s ease-in-out;
+    transition: all 0.75s ease-in-out;
+    z-index: 100;
+}
+
+.fade {
+    opacity: 0;
+}
+
+.picture-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+    margin-left: 200px;
+    height: 350px;
+    margin-top: 25px;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+}
+
+.picture {
+    display: inline-block;
+}
+
+.picture1 {
+    position: relative;
+    height: 250px;
+    width: 25%;
+    background: url('../images/shoecollection.jpg') center center;
+    background-size: cover;
+
+}
+
+.picture1:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.picture2 {
+    height: 400px;
+    width: 25%;
+    background: url('../images/walkingheels.jpg') center center;
+    background-size: cover;
+}
+
+.picture3 {
+    height: 300px;
+    width: 25%;
+    background: url('../images/boots.jpg') center center;
+    background-size: cover;
+}
+
+.picture4 {
+    margin-top: 100px;
+    width: 30%;
+    height: 500px;
+    background: url('../images/heels.jpg') center center;
+    background-size: cover;
+}
+
+.picture5 {
+    margin-top: 300px;
+    height: 300px;
+    width: 25%;
+    background: url('../images/pinkshoes.jpg') center center;
+    background-size: cover;
+}
+
+.picture6 {
+    margin-top: 250px;
+    height: 250px;
+    width: 25%;
+    background: url('../images/blueheels.jpg') center center;
+    background-size: cover;
+}
