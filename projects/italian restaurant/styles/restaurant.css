@@ -239,7 +239,6 @@ body {
 }
 
 #dishes > * {
-    border: 1px solid blue;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -259,6 +258,7 @@ body {
     font-size: 18px;
     color: #3d373f;
     letter-spacing: 2px;
+    margin-bottom: 0;
 }
 
 .price {
@@ -267,6 +267,26 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     margin-top: 0;
+}
+
+#lasagna {
+    background: url('../images/lasagna.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#baricole {
+    background: url('../images/baricole.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#eggplant {
+    background: url('../images/eggplant.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#spaghetti {
+    background: url('../images/spaghetti.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 
