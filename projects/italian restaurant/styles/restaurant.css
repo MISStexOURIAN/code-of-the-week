@@ -196,21 +196,27 @@ body {
 #wine {
     background: url('../images/wine.jpg') no-repeat center center;
     background-size: cover;
-    /* opacity: 0; */
 }
 
 .fade-in-up-from-left {
-    -webkit-animation: fadeIn ease-in-out 0.5s,
-                slideUpFromLeft ease-in-out 0.5s;
-            animation: fadeIn ease-in-out 0.5s,
-                slideUpFromLeft ease-in-out 0.5s;
+    -webkit-animation: fadeIn ease-in-out 0.75s,
+                slideUpFromLeft ease-in-out 0.75s;
+            animation: fadeIn ease-in-out 0.75s,
+                slideUpFromLeft ease-in-out 0.75s;
 }
 
 .fade-in-up-from-right {
-    -webkit-animation: fadeIn ease-in-out 0.5s,
-                slideUpFromRight ease-in-out 0.5s;
-            animation: fadeIn ease-in-out 0.5s,
-                slideUpFromRight ease-in-out 0.5s;
+    -webkit-animation: fadeIn ease-in-out 0.75s,
+                slideUpFromRight ease-in-out 0.75s;
+            animation: fadeIn ease-in-out 0.75s,
+                slideUpFromRight ease-in-out 0.75s;
+}
+
+.fade-in-up {
+    -webkit-animation: fadeIn ease-in-out 1s,
+                slideUp ease-in-out 1s;
+            animation: fadeIn ease-in-out 1s,
+                slideUp ease-in-out 1s;
 }
 
 #specialties {
@@ -311,7 +317,7 @@ body {
         }
     }
 
-    @-webkit-keyframes {
+    @-webkit-keyframes
         slideUp {
             0% {
                 -webkit-transform: translateY(50px);
@@ -322,7 +328,7 @@ body {
                         transform: translateY(0);
             }
         }
-    }
+
 
 @-webkit-keyframes
     slideUp {
